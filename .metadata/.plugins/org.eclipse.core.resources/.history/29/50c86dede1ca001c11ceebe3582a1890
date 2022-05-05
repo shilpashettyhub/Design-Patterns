@@ -1,0 +1,5 @@
+package iteratorpattern;
+
+public class ConcereteIterator1 implements IIterator{
+
+}

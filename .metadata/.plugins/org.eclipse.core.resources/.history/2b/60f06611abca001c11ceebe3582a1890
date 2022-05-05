@@ -1,0 +1,17 @@
+package proxypattern;
+
+public class BookParser implements IBookParser{
+	
+	String Book;
+	public BookParser(String Book) {
+		this.Book = Book;
+		//expensive parsing
+	}
+
+	@Override
+	public int getNoOfPages() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

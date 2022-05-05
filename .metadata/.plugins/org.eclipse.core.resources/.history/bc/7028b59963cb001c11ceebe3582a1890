@@ -1,0 +1,16 @@
+package statepattern;
+
+public abstract class State {
+	
+	protected Phone phone;
+	
+	public State(Phone phone) {
+		super();
+		this.phone = phone;
+	}
+	public abstract String lock();
+	public abstract String unLock();
+	public abstract String home();
+	public abstract String turnOn();
+
+}

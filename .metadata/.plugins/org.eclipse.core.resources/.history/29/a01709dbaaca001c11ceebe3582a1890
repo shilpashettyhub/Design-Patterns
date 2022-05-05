@@ -1,0 +1,12 @@
+package proxypattern;
+
+public class BookParserProxy extends BookParser implements IBookParser {
+	
+	@Override
+	public void getNoOfPages() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+}

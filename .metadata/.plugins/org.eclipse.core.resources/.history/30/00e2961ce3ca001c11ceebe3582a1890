@@ -1,0 +1,8 @@
+package iteratorpattern;
+
+public interface IIterator {
+	
+	boolean hasNext();
+	void next();
+
+}

@@ -1,0 +1,17 @@
+package templatepattern;
+
+public class Pizza1 extends Template{
+
+	@Override
+	public void cheeseAddOn() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void toppingsAddOn() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

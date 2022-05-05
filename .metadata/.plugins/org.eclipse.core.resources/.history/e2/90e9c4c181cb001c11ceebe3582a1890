@@ -1,0 +1,17 @@
+package facade;
+
+public class CvvChecker {
+	
+	Account a;
+
+	public CvvChecker() {
+		super();
+	}
+	
+	public boolean checkcvv(String cvv) {
+		
+		return (this.a.getCvv().equals(cvv));
+		
+	}
+
+}

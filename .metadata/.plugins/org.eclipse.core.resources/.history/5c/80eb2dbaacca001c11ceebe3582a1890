@@ -1,0 +1,20 @@
+package proxypattern;
+
+public class BookParserProxy extends BookParser implements IBookParser {
+	
+	private BookParser bookParser = null;
+	private String Book;
+	public BookParserProxy(String Book) {
+		// TODO Auto-generated constructor stub
+		super();
+	}
+
+	@Override
+	public int getNoOfPages() {
+		// TODO Auto-generated method stub
+		
+		if (bookParser == null)
+			this.bookParser = new BookParser(this.Book);
+		return this.bookParser.getNoOfPages();	
+	}
+}

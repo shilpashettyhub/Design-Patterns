@@ -1,0 +1,14 @@
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		Singleton s1 = Singleton.getObject();
+		Singleton s2 = Singleton.getObject();
+		
+		s1.getName();
+		s2.getName();
+		
+	}
+
+}

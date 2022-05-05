@@ -1,0 +1,17 @@
+package iteratorpattern;
+
+public class ConcereteIterator1 implements IIterator{
+
+	@Override
+	public boolean hasNext() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void next() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

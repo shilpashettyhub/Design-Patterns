@@ -1,0 +1,20 @@
+package templatepattern;
+
+public abstract class Template {
+	
+	public void preparePizza() {
+		
+		pizzaBase();
+		cheeseAddOn();
+		toppingsAddOn();
+		System.out.print("is ready");
+	}
+	
+	public void pizzaBase() {
+		
+		System.out.println("Pizza: \nThin Crust ");
+	}
+	public abstract void cheeseAddOn();
+	public abstract void toppingsAddOn();
+
+}

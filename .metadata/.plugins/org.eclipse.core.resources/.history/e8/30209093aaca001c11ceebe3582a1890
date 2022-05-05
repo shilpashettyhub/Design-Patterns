@@ -1,0 +1,6 @@
+package proxypattern;
+
+public class BookParserProxy extends BookParser implements IBookParser {
+	
+
+}

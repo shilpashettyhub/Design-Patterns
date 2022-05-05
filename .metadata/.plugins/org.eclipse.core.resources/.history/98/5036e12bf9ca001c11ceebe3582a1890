@@ -1,0 +1,12 @@
+package iteratorpattern;
+
+public class ConcreteIterable2 implements IIterable{
+
+	@Override
+	public IIterator getIterator() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+}

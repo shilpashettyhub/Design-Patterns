@@ -1,0 +1,28 @@
+package iteratorpattern;
+
+import java.util.ArrayList;
+
+public class AnimalSet1 {
+	
+	ArrayList<String> animals;
+	
+	public AnimalSet1() {
+		
+		animals = new ArrayList<String>();
+		
+		animals.add("Elephant");
+		animals.add("Lion");
+		animals.add("Tiger");
+		animals.add("Goat");
+		animals.add("Deer");
+		animals.add("Cat");
+		
+	}
+	
+	public ArrayList<String> getAnimals(){
+		return animals;
+	}
+	
+	
+
+}

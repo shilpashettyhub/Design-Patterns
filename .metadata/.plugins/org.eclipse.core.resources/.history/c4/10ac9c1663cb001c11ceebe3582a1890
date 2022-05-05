@@ -1,0 +1,11 @@
+package statepattern;
+
+public interface State {
+	
+	
+	public String lock();
+	public String unLock();
+	public String home();
+	public String turnOn();
+
+}

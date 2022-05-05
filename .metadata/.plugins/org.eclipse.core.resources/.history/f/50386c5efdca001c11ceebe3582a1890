@@ -1,0 +1,31 @@
+package iteratorpattern;
+
+import java.util.Iterator;
+
+public class Main {
+	
+	AnimalSet1 animalset1;
+	AnimalSet2 animalset2;
+	public Main(AnimalSet1 animalset1, AnimalSet2 animalset2) {
+		super();
+		this.animalset1 = animalset1;
+		this.animalset2 = animalset2;
+	}
+	
+	public void showAnimals() {
+		
+		
+	}
+	
+	public void printAnimals(Iterator iterator) {
+		
+		while (iterator.hasNext()) {
+			
+			String animal = (String) iterator.next();
+			
+			System.out.println(animal);
+		}
+		
+	}
+
+}

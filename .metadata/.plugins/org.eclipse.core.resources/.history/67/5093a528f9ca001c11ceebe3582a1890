@@ -1,0 +1,23 @@
+package iteratorpattern;
+
+public class ConcreteIterator2 implements IIterator{
+
+	@Override
+	public boolean hasNext() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void next() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int current() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

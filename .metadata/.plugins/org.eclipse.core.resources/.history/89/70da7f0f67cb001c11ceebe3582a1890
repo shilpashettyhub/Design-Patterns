@@ -1,0 +1,15 @@
+package statepattern;
+
+import javax.swing.JButton;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Phone phone = new Phone();
+		JButton home = new JButton("home");
+		home.addActionListener(e -> phone.getState().onHome());
+		JButton onOff = new JButton("On/Off");
+		home.addActionListener(e -> phone.getState().onOffOn());
+	}
+
+}

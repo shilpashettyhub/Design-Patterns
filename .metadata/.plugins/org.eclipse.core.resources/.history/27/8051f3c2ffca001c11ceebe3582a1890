@@ -1,0 +1,25 @@
+
+public class Singleton {
+	
+	private int objCreated = 0;
+	private String name = "Singleton";
+	private Singleton s;
+	
+	private Singleton() {
+		System.out.println("creating a new object");
+		objCreated++;
+	}
+	
+	
+	public static Singleton getObject() {
+		
+		if(objCreated == 1) {
+			
+			return s;
+			
+		}
+		s = new Singleton();
+		return s;
+	}
+
+}

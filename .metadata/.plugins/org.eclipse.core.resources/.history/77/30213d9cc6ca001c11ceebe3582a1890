@@ -1,0 +1,16 @@
+package todo;
+
+import java.util.ArrayList;
+
+public class Project implements IToDoList{
+    
+	String title;
+	ArrayList<IToDoList> todos;
+	
+	@Override
+	public String GetList() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

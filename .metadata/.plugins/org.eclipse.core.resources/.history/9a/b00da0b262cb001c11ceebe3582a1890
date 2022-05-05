@@ -1,0 +1,14 @@
+package statepattern;
+
+public class Phone implements State{
+	
+	private State state;
+
+	public Phone(State state) {
+		super();
+		this.state = state;
+	}
+	
+	
+
+}

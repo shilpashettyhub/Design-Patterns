@@ -1,0 +1,7 @@
+package iteratorpattern;
+
+public interface IIterable {
+	
+	IIterator getIterator();
+
+}

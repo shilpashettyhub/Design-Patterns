@@ -1,0 +1,17 @@
+package adapterpattern;
+
+public class Adapter {
+	
+	private Adaptee adaptee;
+
+	public Adapter() {
+		super();
+	}
+
+	public Adapter(Adaptee adaptee) {
+		super();
+		this.adaptee = adaptee;
+	}
+	
+
+}

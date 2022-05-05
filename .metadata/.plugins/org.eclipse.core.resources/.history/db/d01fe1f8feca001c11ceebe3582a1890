@@ -1,0 +1,10 @@
+
+public class Singleton {
+	
+	int objCreated;
+	
+	private Singleton() {
+		objCreated++;
+	}
+
+}

@@ -1,0 +1,23 @@
+package facade;
+
+public class BalanceChecker {
+	
+	Account a;
+	
+	public BalanceChecker() {
+		super();
+	}
+
+	public boolean checkbalance(Double balance) {
+		
+		return (this.a.getBalance()>= balance);
+		
+	}
+	
+	public boolean decreaseBalance(Double amt) {
+		
+		this.a.setBalance(this.a.getBalance()- amt);
+		return true;
+	}
+
+}

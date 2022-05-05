@@ -1,0 +1,45 @@
+package statepattern;
+
+public class Phone{
+	
+	private State state;
+
+	public Phone() {
+		this.state = new OffState(this);
+	}
+
+	public State getState() {
+		return state;
+	}
+
+	public void setState(State state) {
+		this.state = state;
+	}
+
+	
+	public String lock() {
+		
+		return "Locking Screen and turning off the screen\n";
+	}
+
+	
+	public String unLock() {
+		
+		return "Unlocking the phone to home\n";
+	}
+
+
+	public String home() {
+		
+		return "Going to home Screen";
+	}
+
+	
+	public String turnOn() {
+		
+		return "Turning screen on device still locked";
+	}
+	
+	
+
+}

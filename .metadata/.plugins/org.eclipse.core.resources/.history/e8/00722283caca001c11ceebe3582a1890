@@ -1,0 +1,9 @@
+package todo;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		Project1 p1 = new Project1("");
+	}
+
+}

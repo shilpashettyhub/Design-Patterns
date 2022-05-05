@@ -1,0 +1,13 @@
+package command;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		ElectronicDevice device1 = new Television();
+		TurnTvOn onCommand = new TurnTvOn(device1);
+		DeviceButton onPressed = new DeviceButton(onCommand);
+		onPressed.press();
+	}
+
+}

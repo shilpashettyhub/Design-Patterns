@@ -1,0 +1,5 @@
+package templatepattern;
+
+public abstract class Template {
+
+}

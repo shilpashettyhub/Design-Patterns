@@ -1,0 +1,46 @@
+package statepattern;
+
+public class Phone implements State{
+	
+	private State state;
+
+	public Phone(State state) {
+		super();
+		this.state = state;
+	}
+
+	public State getState() {
+		return state;
+	}
+
+	public void setState(State state) {
+		this.state = state;
+	}
+
+	@Override
+	public String lock() {
+		// TODO Auto-generated method stub
+		return "Locking Screen and turning off the screen\n";
+	}
+
+	@Override
+	public String unLock() {
+		// TODO Auto-generated method stub
+		return "Unlocking the phone to home\n";
+	}
+
+	@Override
+	public String home() {
+		// TODO Auto-generated method stub
+		return "Going to home Screen";
+	}
+
+	@Override
+	public String turnOn() {
+		// TODO Auto-generated method stub
+		return "Turning screen on device still locked";
+	}
+	
+	
+
+}

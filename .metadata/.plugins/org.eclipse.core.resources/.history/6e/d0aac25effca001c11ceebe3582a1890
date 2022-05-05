@@ -1,0 +1,23 @@
+
+public class Singleton {
+	
+	int objCreated = 0;
+	private Singleton s;
+	
+	private Singleton() {
+		objCreated++;
+	}
+	
+	
+	public Singleton getObject() {
+		
+		if(objCreated == 1) {
+			
+			return s;
+			
+		}
+		s = new Singleton();
+		return s;
+	}
+
+}

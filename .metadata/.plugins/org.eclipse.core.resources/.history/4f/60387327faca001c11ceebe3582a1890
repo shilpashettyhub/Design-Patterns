@@ -1,0 +1,11 @@
+package iteratorpattern;
+
+import java.util.ArrayList;
+
+public class AnimalSet1 {
+	
+	ArrayList<String> animalSet = new ArrayList<>();
+	
+	
+
+}

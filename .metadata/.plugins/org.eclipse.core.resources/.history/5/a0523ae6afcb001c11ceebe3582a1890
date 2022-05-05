@@ -1,0 +1,14 @@
+package command;
+
+public class TurnTvOn implements Command{
+	
+	ElectronicDevice electronicDevice;
+
+	@Override
+	public void execute() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}
